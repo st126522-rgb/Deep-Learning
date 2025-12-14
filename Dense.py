@@ -53,8 +53,8 @@ class Dense:
         """
         
         method_map={
-            "uniform":uniform_initialization,
-            "normal":normal_initialization
+            "uniform":self.uniform_initialization,
+            "normal":self.normal_initialization
         }
 
 
